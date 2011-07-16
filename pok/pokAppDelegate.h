@@ -11,8 +11,13 @@
 @interface pokAppDelegate : NSObject <NSApplicationDelegate> {
 @private
     NSWindow *window;
+    IBOutlet NSButton *quitButton;
+    IBOutlet NSDatePicker *datePicker;
 }
 
 @property (assign) IBOutlet NSWindow *window;
 
+-(void)showPrefs:(id)sender;
+-(IBAction)datePicked:(id)sender;
+-(IBAction)quitApp:(id)sender;
 @end

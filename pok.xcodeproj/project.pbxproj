@@ -35,18 +35,18 @@
 		63D8352413D235D3003A5566 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		63D8352513D235D3003A5566 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		63D8352613D235D3003A5566 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		63D8352913D235D3003A5566 /* pok-Info.plist */ = {isa = PBXFileReference; path = "pok-Info.plist"; sourceTree = "<group>"; };
+		63D8352913D235D3003A5566 /* pok-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pok-Info.plist"; sourceTree = "<group>"; };
 		63D8352B13D235D3003A5566 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		63D8352D13D235D3003A5566 /* pok-Prefix.pch */ = {isa = PBXFileReference; path = "pok-Prefix.pch"; sourceTree = "<group>"; };
+		63D8352D13D235D3003A5566 /* pok-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pok-Prefix.pch"; sourceTree = "<group>"; };
 		63D8352E13D235D3003A5566 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63D8353113D235D3003A5566 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		63D8353313D235D3003A5566 /* pokAppDelegate.h */ = {isa = PBXFileReference; path = pokAppDelegate.h; sourceTree = "<group>"; };
+		63D8353313D235D3003A5566 /* pokAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pokAppDelegate.h; sourceTree = "<group>"; };
 		63D8353413D235D3003A5566 /* pokAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pokAppDelegate.m; sourceTree = "<group>"; };
 		63D8353713D235D4003A5566 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		63D8353E13D235D4003A5566 /* pokTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		63D8354413D235D4003A5566 /* pokTests-Info.plist */ = {isa = PBXFileReference; path = "pokTests-Info.plist"; sourceTree = "<group>"; };
+		63D8354413D235D4003A5566 /* pokTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pokTests-Info.plist"; sourceTree = "<group>"; };
 		63D8354613D235D4003A5566 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		63D8354813D235D4003A5566 /* pokTests-Prefix.pch */ = {isa = PBXFileReference; path = "pokTests-Prefix.pch"; sourceTree = "<group>"; };
+		63D8354813D235D4003A5566 /* pokTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pokTests-Prefix.pch"; sourceTree = "<group>"; };
 		63D8354913D235D4003A5566 /* pokTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pokTests.h; sourceTree = "<group>"; };
 		63D8354B13D235D4003A5566 /* pokTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pokTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */

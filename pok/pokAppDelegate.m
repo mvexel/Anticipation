@@ -14,7 +14,22 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    NSStatusBar *bar = [NSStatusBar systemStatusBar];
+    NSStatusItem *countItem = [[bar statusItemWithLength:NSVariableStatusItemLength] retain];
+    [countItem setTitle:@"10"];
+    [countItem setAction:@selector(showPrefs:)];
+}
+
+-(void)showPrefs:(id)sender {
+    [window 
+}
+
+-(IBAction)datePicked:(id)sender {
+    
+}
+
+-(IBAction)quitApp:(id)sender {
+    [NSApp terminate:nil];
 }
 
 @end
