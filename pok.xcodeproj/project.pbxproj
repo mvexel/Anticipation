@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		638E750813D2D847009C82A0 /* Defaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 638E750713D2D847009C82A0 /* Defaults.plist */; };
 		63D8352213D235D3003A5566 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D8352113D235D3003A5566 /* Cocoa.framework */; };
 		63D8352C13D235D3003A5566 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63D8352A13D235D3003A5566 /* InfoPlist.strings */; };
 		63D8352F13D235D3003A5566 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8352E13D235D3003A5566 /* main.m */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		638E750713D2D847009C82A0 /* Defaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Defaults.plist; sourceTree = "<group>"; };
 		63D8351D13D235D3003A5566 /* pok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D8352113D235D3003A5566 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		63D8352413D235D3003A5566 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -128,6 +130,7 @@
 				63D8352D13D235D3003A5566 /* pok-Prefix.pch */,
 				63D8352E13D235D3003A5566 /* main.m */,
 				63D8353013D235D3003A5566 /* Credits.rtf */,
+				638E750713D2D847009C82A0 /* Defaults.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				63D8352C13D235D3003A5566 /* InfoPlist.strings in Resources */,
 				63D8353213D235D3003A5566 /* Credits.rtf in Resources */,
 				63D8353813D235D4003A5566 /* MainMenu.xib in Resources */,
+				638E750813D2D847009C82A0 /* Defaults.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +332,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -343,7 +347,7 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = "";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -441,6 +445,7 @@
 				63D8355113D235D4003A5566 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63D8355213D235D4003A5566 /* Build configuration list for PBXNativeTarget "pokTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +454,7 @@
 				63D8355413D235D4003A5566 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

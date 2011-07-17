@@ -18,10 +18,12 @@
 {
     NSStatusBar *bar = [NSStatusBar systemStatusBar];
     countItem = [[bar statusItemWithLength:NSVariableStatusItemLength] retain];
-    pickedDate = [[NSUserDefaults standardUserDefaults] valueForKey:@"pickedDate"];
+    [countItem setAction:@selector(showPrefs:)];
+    NSUserDefaults *d = [NSUserDefaults standardUserDefaults];
+    pickedDate = [d objectForKey:@"pickedDate"];
+    NSLog(@"got %@ from prefs",[pickedDate description]);
     if (pickedDate == nil) pickedDate = [NSDate date];
     [self setDate];
-    [countItem setAction:@selector(showPrefs:)];
 }
 
 -(void)showPrefs:(id)sender {
@@ -32,10 +34,8 @@
     NSDate *now = [[NSDate alloc] init];
     NSTimeInterval interval = [pickedDate timeIntervalSinceDate:now];
     int days = (int) round((double) interval / (double) (60 * 60 * 24));
-    NSLog(@"interval is %i",days); 
-    NSDictionary *defs = [NSDictionary dictionaryWithObject:pickedDate forKey:@"pickedDate"];
-    [[NSUserDefaults standardUserDefaults] registerDefaults:defs];
-    [[NSUserDefaults standardUserDefaults] synchronize];
+    NSUserDefaults *d = [NSUserDefaults standardUserDefaults];
+    [d setObject:pickedDate forKey:@"pickedDate"];
     [countItem setTitle:[NSString stringWithFormat:@"%i",days]];
 }
 
