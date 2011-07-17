@@ -58,7 +58,7 @@
 		63D8353313D235D3003A5566 /* appDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = appDelegate.h; sourceTree = "<group>"; };
 		63D8353413D235D3003A5566 /* appDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appDelegate.m; sourceTree = "<group>"; };
 		63D8353713D235D4003A5566 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		63D8353E13D235D4003A5566 /* AnticipationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnticipationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D8353E13D235D4003A5566 /* AnticipationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AnticipationTests.octest; path = /Users/mvexel/src/pok/build/Release/AnticipationTests.octest; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				63D8351D13D235D3003A5566 /* Anticipation.app */,
-				63D8353E13D235D4003A5566 /* AnticipationTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";

@@ -23,16 +23,19 @@
     pickedDate = [d objectForKey:@"pickedDate"];
     NSLog(@"got %@ from prefs",[pickedDate description]);
     if (pickedDate == nil) pickedDate = [NSDate date];
-    [self setDate];
+    [self setDate:nil];
+    hourTimer = [NSTimer timerWithTimeInterval:3600 target:self selector:@selector(setDate:) userInfo:nil repeats:YES];
+    [hourTimer fire];
 }
 
 -(void)showPrefs:(id)sender {
     if ([window isVisible]) [window orderOut:self];
-    else [window makeKeyAndOrderFront:self];
+    else [window orderFrontRegardless];
     [datePicker setDateValue:pickedDate];
+    [versionTextField setTitleWithMnemonic:[NSString stringWithFormat:@"v%@",[[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"]]];
 }
 
--(void)setDate {
+-(void)setDate:(NSTimer *)theTimer {
     NSDate *now = [[NSDate alloc] init];
     NSTimeInterval interval = [pickedDate timeIntervalSinceDate:now];
     int days = (int) round((double) interval / (double) (60 * 60 * 24));
@@ -44,7 +47,7 @@
 -(IBAction)datePicked:(id)sender {
     NSDatePicker *p = (NSDatePicker *) sender;
     pickedDate = [p dateValue];
-    [self setDate];
+    [self setDate:nil];
 }
 
 -(IBAction)quitApp:(id)sender {

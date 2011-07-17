@@ -15,6 +15,8 @@
     IBOutlet NSButton *quitButton;
     IBOutlet NSDatePicker *datePicker;
     NSDate *pickedDate;
+    NSTimer *hourTimer;
+    IBOutlet NSTextField *versionTextField;
 }
 
 @property (assign) IBOutlet NSWindow *window;
@@ -22,7 +24,7 @@
 @property (nonatomic,retain) NSDate *pickedDate;
 
 -(void)showPrefs:(id)sender;
--(void)setDate;
+-(void)setDate:(NSTimer *)theTimer;
 -(IBAction)datePicked:(id)sender;
 -(IBAction)quitApp:(id)sender;
 @end
