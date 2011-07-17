@@ -1,9 +1,9 @@
 //
 //  main.m
-//  pok
+//  Anticipation
 //
 //  Created by Martijn van Exel on 7/16/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Very Furry. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

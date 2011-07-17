@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Anticipation' target in the 'Anticipation' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
