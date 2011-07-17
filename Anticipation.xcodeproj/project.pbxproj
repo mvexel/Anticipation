@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		638E750D13D2E3D1009C82A0 /* Anticipation.icns in Resources */ = {isa = PBXBuildFile; fileRef = 638E750C13D2E3D1009C82A0 /* Anticipation.icns */; };
+		638E750F13D2E54A009C82A0 /* License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 638E750E13D2E54A009C82A0 /* License.rtf */; };
+		638E751113D2E59D009C82A0 /* License.rtf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 638E750E13D2E54A009C82A0 /* License.rtf */; };
 		63D8352213D235D3003A5566 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D8352113D235D3003A5566 /* Cocoa.framework */; };
 		63D8352C13D235D3003A5566 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63D8352A13D235D3003A5566 /* InfoPlist.strings */; };
 		63D8352F13D235D3003A5566 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D8352E13D235D3003A5566 /* main.m */; };
@@ -27,8 +29,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		638E751013D2E58D009C82A0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				638E751113D2E59D009C82A0 /* License.rtf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		638E750C13D2E3D1009C82A0 /* Anticipation.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Anticipation.icns; path = ../Anticipation.icns; sourceTree = "<group>"; };
+		638E750E13D2E54A009C82A0 /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
 		63D8351D13D235D3003A5566 /* Anticipation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anticipation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D8352113D235D3003A5566 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		63D8352413D235D3003A5566 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -123,6 +139,7 @@
 				63D8352D13D235D3003A5566 /* Anticipation-Prefix.pch */,
 				63D8352E13D235D3003A5566 /* main.m */,
 				63D8353013D235D3003A5566 /* Credits.rtf */,
+				638E750E13D2E54A009C82A0 /* License.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -137,6 +154,7 @@
 				63D8351913D235D3003A5566 /* Sources */,
 				63D8351A13D235D3003A5566 /* Frameworks */,
 				63D8351B13D235D3003A5566 /* Resources */,
+				638E751013D2E58D009C82A0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -198,6 +216,7 @@
 				63D8353213D235D3003A5566 /* Credits.rtf in Resources */,
 				63D8353813D235D4003A5566 /* MainMenu.xib in Resources */,
 				638E750D13D2E3D1009C82A0 /* Anticipation.icns in Resources */,
+				638E750F13D2E54A009C82A0 /* License.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
