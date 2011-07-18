@@ -45,6 +45,7 @@
 /* Begin PBXFileReference section */
 		638E750C13D2E3D1009C82A0 /* Anticipation.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Anticipation.icns; path = ../Anticipation.icns; sourceTree = "<group>"; };
 		638E750E13D2E54A009C82A0 /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
+		63B1CD4113D3F9C000E56F5E /* AnticipationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnticipationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D8351D13D235D3003A5566 /* Anticipation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anticipation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D8352113D235D3003A5566 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		63D8352413D235D3003A5566 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -58,7 +59,6 @@
 		63D8353313D235D3003A5566 /* appDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = appDelegate.h; sourceTree = "<group>"; };
 		63D8353413D235D3003A5566 /* appDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appDelegate.m; sourceTree = "<group>"; };
 		63D8353713D235D4003A5566 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		63D8353E13D235D4003A5566 /* AnticipationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AnticipationTests.octest; path = /Users/mvexel/src/pok/build/Release/AnticipationTests.octest; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				63D8351D13D235D3003A5566 /* Anticipation.app */,
+				63B1CD4113D3F9C000E56F5E /* AnticipationTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,7 +181,7 @@
 			);
 			name = AnticipationTests;
 			productName = pokTests;
-			productReference = 63D8353E13D235D4003A5566 /* AnticipationTests.octest */;
+			productReference = 63B1CD4113D3F9C000E56F5E /* AnticipationTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */

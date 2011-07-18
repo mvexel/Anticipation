@@ -26,6 +26,10 @@
     [self setDate:nil];
     hourTimer = [NSTimer timerWithTimeInterval:3600 target:self selector:@selector(setDate:) userInfo:nil repeats:YES];
     [hourTimer fire];
+    [[[NSWorkspace sharedWorkspace] notificationCenter] addObserver: self 
+                                                           selector: @selector(receiveWakeNote:) 
+                                                               name: NSWorkspaceDidWakeNotification 
+                                                             object: NULL];
 }
 
 -(void)showPrefs:(id)sender {
@@ -52,6 +56,11 @@
 
 -(IBAction)quitApp:(id)sender {
     [NSApp terminate:nil];
+}
+
+-(void)receiveWakeNote:(NSNotification*)note {
+    NSLog(@"receiveSleepNote: %@", [note name]);
+    [self setDate:nil];
 }
 
 @end
